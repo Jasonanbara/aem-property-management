@@ -88,14 +88,14 @@ export default function Footer() {
               experiences.
             </p>
             <div className="space-y-2 text-sm text-gray-300">
-              <a href="tel:+16135551234" className="flex items-center gap-2 hover:text-gold transition-colors">
-                <Phone className="h-4 w-4" /> (613) 555-1234
+              <a href="tel:+16134044845" className="flex items-center gap-2 hover:text-gold transition-colors">
+                <Phone className="h-4 w-4" /> (613) 404-4845
               </a>
-              <a href="mailto:info@aemproperties.ca" className="flex items-center gap-2 hover:text-gold transition-colors">
-                <Mail className="h-4 w-4" /> info@aemproperties.ca
+              <a href="mailto:joey@aemproperties.ca" className="flex items-center gap-2 hover:text-gold transition-colors">
+                <Mail className="h-4 w-4" /> joey@aemproperties.ca
               </a>
               <p className="flex items-center gap-2">
-                <MapPin className="h-4 w-4" /> 150 Elgin St, Ottawa, ON K2P 1L4
+                <MapPin className="h-4 w-4" /> 291 Olmstead St, Ottawa, ON K1L 7J9
               </p>
             </div>
           </div>

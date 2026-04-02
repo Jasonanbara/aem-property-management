@@ -232,11 +232,11 @@ export default async function PropertyDetailPage({ params }: Props) {
                       Schedule a Viewing
                     </Button>
                     <Button
-                      href="tel:+16135551234"
+                      href="tel:+16134044845"
                       variant="secondary"
                       className="w-full"
                     >
-                      Call (613) 555-1234
+                      Call (613) 404-4845
                     </Button>
                   </div>
                 </div>

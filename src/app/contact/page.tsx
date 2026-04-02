@@ -41,7 +41,7 @@ export default function ContactPage() {
                 </h2>
                 <div className="space-y-4">
                   <a
-                    href="tel:+16135551234"
+                    href="tel:+16134044845"
                     className="flex items-start gap-3 group"
                   >
                     <div className="w-10 h-10 bg-gold/10 rounded-lg flex items-center justify-center shrink-0">
@@ -50,12 +50,12 @@ export default function ContactPage() {
                     <div>
                       <p className="text-sm font-semibold text-navy">Phone</p>
                       <p className="text-sm text-gray-text group-hover:text-gold transition-colors">
-                        (613) 555-1234
+                        (613) 404-4845
                       </p>
                     </div>
                   </a>
                   <a
-                    href="mailto:info@aemproperties.ca"
+                    href="mailto:joey@aemproperties.ca"
                     className="flex items-start gap-3 group"
                   >
                     <div className="w-10 h-10 bg-gold/10 rounded-lg flex items-center justify-center shrink-0">
@@ -64,7 +64,7 @@ export default function ContactPage() {
                     <div>
                       <p className="text-sm font-semibold text-navy">Email</p>
                       <p className="text-sm text-gray-text group-hover:text-gold transition-colors">
-                        info@aemproperties.ca
+                        joey@aemproperties.ca
                       </p>
                     </div>
                   </a>
@@ -75,9 +75,9 @@ export default function ContactPage() {
                     <div>
                       <p className="text-sm font-semibold text-navy">Office</p>
                       <p className="text-sm text-gray-text">
-                        150 Elgin St, Suite 300
+                        291 Olmstead St
                         <br />
-                        Ottawa, ON K2P 1L4
+                        Ottawa, ON K1L 7J9
                       </p>
                     </div>
                   </div>
@@ -104,7 +104,7 @@ export default function ContactPage() {
                 <div className="text-center">
                   <MapPin className="h-8 w-8 text-navy/30 mx-auto mb-2" />
                   <p className="text-sm text-navy/40 font-medium">
-                    150 Elgin St, Ottawa
+                    291 Olmstead St, Ottawa
                   </p>
                   <p className="text-xs text-navy/30">Map integration</p>
                 </div>

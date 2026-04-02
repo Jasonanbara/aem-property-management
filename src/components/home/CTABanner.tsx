@@ -26,8 +26,8 @@ export default function CTABanner() {
           <Button href="/contact" size="lg" variant="gold">
             Schedule Free Consultation
           </Button>
-          <Button href="tel:+16135551234" size="lg" variant="outline">
-            Call (613) 555-1234
+          <Button href="tel:+16134044845" size="lg" variant="outline">
+            Call (613) 404-4845
           </Button>
         </div>
       </div>
