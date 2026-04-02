@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #1a1a2e;
+  --navy: #1B2B5B;
+  --navy-light: #2A3F7A;
+  --navy-dark: #111D3E;
+  --gold: #C9A84C;
+  --gold-light: #D4B96A;
+  --gold-dark: #B89530;
+  --gray-bg: #F8F9FA;
+  --gray-text: #6B7280;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-navy: var(--navy);
+  --color-navy-light: var(--navy-light);
+  --color-navy-dark: var(--navy-dark);
+  --color-gold: var(--gold);
+  --color-gold-light: var(--gold-light);
+  --color-gold-dark: var(--gold-dark);
+  --color-gray-bg: var(--gray-bg);
+  --color-gray-text: var(--gray-text);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Status badges */
+.status-available { background-color: #DEF7EC; color: #03543F; }
+.status-rented { background-color: #E1EFFE; color: #1E429F; }
+.status-under-management { background-color: #FDF6B2; color: #723B13; }
+.status-coming-soon { background-color: #F3E8FF; color: #5B21B6; }
